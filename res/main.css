@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Munro";
+	src: url(munro.ttf) format("truetype");
+}
+
+body {
+	background-color: #fffff;
+}
+
+h1#aidswidjaja {
+	font-family: Munro;
+	font-size: 8rem;
+}
