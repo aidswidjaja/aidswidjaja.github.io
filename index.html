@@ -5,31 +5,147 @@
 
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>aidswidjaja</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.12.0/css/OverlayScrollbars.min.css"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="res/main.css" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="res/textcolour.js" />
+    <link rel="stylesheet" href="res/os-theme-round-light.css" />
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.12.0/js/OverlayScrollbars.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="res/textcolour.js"></script>
+    <script src="res/tagline.js"></script>
 </head>
-<body>
-    <div class="aidswidjaja">
-            <p id="randomText1">a</p>
-            <p id="randomText2">i</p>
-            <p id="randomText3">d</p>
-            <p id="randomText4">s</p>
-            <p id="randomText5">w</p>
-            <p id="randomText6">i</p>
-            <p id="randomText7">d</p>
-            <p id="randomText8">j</p>
-            <p id="randomText9">a</p>
-            <p id="randomText10">j</p>
-            <p id="randomText11">a</p>
+
+<body onLoad="setInterval(typeWriter, 2005)">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            //The first argument are the elements to which the plugin shall be initialized
+            //The second argument has to be at least a empty object or a object with your desired options
+            var instance = OverlayScrollbars(document.querySelectorAll("body"), { className: "os-theme-round-light", autoHide: "never" });
+        });    
+    </script>
+    <div class="aidswidjaja" id="top">
+        <div class="wrapper d-none d-md-inline-block">
+            <!-- yea this is a long one --><span class="aidswidjajaspan" id="randomText1">a</span><span
+                class="aidswidjajaspan" id="randomText2">i</span><span class="aidswidjajaspan"
+                id="randomText3">d</span><span class="aidswidjajaspan" id="randomText4">s</span><span
+                class="aidswidjajaspan" id="randomText5">w</span><span class="aidswidjajaspan"
+                id="randomText6">i</span><span class="aidswidjajaspan" id="randomText7">d</span><span
+                class="aidswidjajaspan" id="randomText8">j</span><span class="aidswidjajaspan"
+                id="randomText9">a</span><span class="aidswidjajaspan" id="randomText10">j</span><span
+                class="aidswidjajaspan" id="randomText11">a</span>
+        </div>
+        <div class="wrapper d-md-none">
+            <span class="moreaidswidjajaspan" id="morerandomText1">a</span><span class="moreaidswidjajaspan"
+                id="morerandomText2">i</span><span class="moreaidswidjajaspan" id="morerandomText3">d</span><span
+                class="moreaidswidjajaspan" id="morerandomText4">s</span><br><span class="moreaidswidjajaspan"
+                id="morerandomText5">w</span><span class="moreaidswidjajaspan" id="morerandomText6">i</span><span
+                class="moreaidswidjajaspan" id="morerandomText7">d</span><span class="moreaidswidjajaspan"
+                id="morerandomText8">j</span><span class="moreaidswidjajaspan" id="morerandomText9">a</span><span
+                class="moreaidswidjajaspan" id="morerandomText10">j</span><span class="moreaidswidjajaspan"
+                id="morerandomText11">a</span>
+        </div>
+        <p class="tagline" id="typing"></p>
     </div>
+    <div class="aidswidjaja" id="bottom">
+        <div class="row title maincontent">
+            <h1 style="font-size: 5rem;">heyo</h1>
+        </div>
+        <div class="maincontent" style="text-align: left;">
+            <h4>hi! I'm aidswidjaja and I'm a 15 yo from Sydney, Australia who likes hanging out on the internet. I
+                visit some places more than others but usually I'm more active on Discord, Reddit, GitHub and Twitter. I also own quite a
+                few other accounts that aren't listed here (for privacy reasons).</h4>
+            <ul>
+                <li>
+                    <h5 class="socialheader"><code class="social discord">aidswidjaja#2805</code> on Discord</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://reddit.com/u/airswidjaja" class="social reddit"><code
+                                class="social reddit">u/airswidjaja</code></a> on Reddit</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://twitter.com/adrianpenguin1" class="social twitter"><code
+                                class="social twitter">@adrianpenguin1</code></a> on Twitter</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://github.com/aidswidjaja" class="social github"><code
+                                class="social github">aidswidjaja</code></a> on GitHub</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://myanimelist.net/profile/aidswidjaja" class="social myanimelist"><code
+                                class="social myanimelist">aidswidjaja</code></a> on MyAnimeList</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://www.deviantart.com/aidswidjaja" class="social deviantart"><code
+                                class="social deviantart">aidswidjaja</code></a> on DeviantArt</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://aminoapps.com/u/aidswidjaja" class="social aminoapps"><code
+                                class="social aminoapps">aidswidjaja</code></a> on Amino Apps</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://www.roblox.com/users/78976523/profile" class="social roblox"><code
+                                class="social roblox">aidswidjaja</code></a> on Roblox?</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><code class="social googleplay">airswidjaja</code></a> on Google Play (just a bunch of
+                        Postknight, FEH and Mini Metro)</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://www.pixiv.net/en/users/45848015" class="social pixiv"><code
+                                class="social pixiv">aidswidjaja</code></a> on Pixiv which I didn't know I had</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://open.spotify.com/user/aidswidjaja" class="social spotify"><code
+                                class="social spotify">aidswidjaja</code></a> on Spotify (I don't use it though)</h5>
+                </li>
+                <li>
+                    <h5 class="socialheader"><a href="https://www.pinterest.com.au/aidswidjaja" class="social pinterest"><code
+                                class="social pinterest">aidswidjaja</code></a> on Pinterest (don't use this either)</h5>
+                </li>
+            </ul>
+            <h4>My profile images are sourced from the following people! (If you want me to take it down, please send a
+                message to me on Discord or Twitter since I don't use Pixiv):</h4>
+            <ul>
+                <li>
+                    <h5 class="socialheader">2P!Japan: <a href="https://www.pixiv.net/en/artworks/50639089">Kuro on Pixiv</a>
+                    </h5>
+                </li>
+                <li>
+                    <h5 class="socialheader">Regu: <a href="https://www.pixiv.net/en/artworks/65290072">Akefumi on Pixiv</a>
+                    </h5>
+                </li>
+                <li>
+                    <h5 class="socialheader">iMac G4: I actually took that myself sometime around 2013 in a Service NSW lol.
+                    </h5>
+                </li>
+            </ul>
+            <h4>oh and btw please don't dox me :( Then I'll have to call the police and the paperwork for that is ridiculous.</h4>
+            <h4>and don't hack me either I swear if my animelab login gets exposed :O</h4>
+        </div>
+    </div>
+    <p style="font-family: Munro Small, monospace; text-align: center; color: #ffffff;">2020 (c) aidswidjaja</p>
 </body>
+
 </html>

@@ -3,11 +3,197 @@
 	src: url(munro.ttf) format("truetype");
 }
 
-body {
-	background-color: #fffff;
+@font-face {
+	font-family: "Munro Small";
+	src: url(munro-small.ttf) format("truetype");
 }
 
-h1#aidswidjaja {
+body {
+	background-color: #202125;
+}
+
+code {
+	font-family: 'Press Start 2P', monospace;
+	vertical-align: text-bottom;
+	color: #41FF00;
+}
+
+.aidswidjajaspan {
+	display: inline-block;
+	font-size: 12em;
+}
+
+.moreaidswidjajaspan {
+	display: inline-block;
+	font-size: 7em;
+}
+
+.aidswidjaja {
+	display: absolute;
 	font-family: Munro;
-	font-size: 8rem;
+	text-align: center;
+	line-height: 1;
+}
+
+.tagline {
+	font-family: 'DM Mono', monospace;
+	font-size: 1.5rem;
+	color: #ffffff;
+	vertical-align: middle;
+	padding-top: 5vh;
+	margin: 10px;
+}
+
+#tagtext {
+	color: orange;
+}
+
+.wrapper {
+	margin-top: 25vh;
+}
+
+#top {
+	height: 100vh;
+	width: 100vw;
+}
+
+#bottom {
+	min-height: 90vh;
+	width: 90vw;
+	display: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+	border-radius: 25px;
+	border-spacing: 20px;
+	border: 2px solid #37393E;
+	font-family: 'Rubik', sans-serif;
+	color: #ffffff;
+}
+
+.maincontent {
+	margin: 20px;
+}
+
+.socialheader {
+	font-size: 1.5em;
+}
+
+.social:hover {
+	text-decoration: none;
+}
+
+a.reddit {
+	color: #FF5700;
+}
+
+a.reddit:hover {
+	background-color: #FF5700;
+	color: #ffffff;
+}
+
+a.twitter {
+	color: #1DA1F2;
+}
+
+a.twitter:hover {
+	background-color: #1DA1F2;
+	color: #ffffff;
+}
+
+a.github {
+	color: #6844BA;
+}
+
+a.github:hover {
+	background-color: #6844BA;
+	color: #ffffff;
+}
+
+a.myanimelist {
+	color: #36509D;
+}
+
+a.myanimelist:hover {
+	background-color: #36509D;
+	color: #ffffff;
+}
+
+.discord {
+	color: #7289DA;
+}
+
+a.discord:hover {
+	background-color: #7289DA;
+	color: #ffffff;
+}
+
+a.deviantart {
+	color: #68E2A1;
+}
+
+a.deviantart:hover {
+	background-color: #68E2A1;
+	color: #000000;
+}
+
+a.aminoapps {
+	color: #100D3A;
+}
+
+a.aminoapps:hover {
+	background-color: #100D3A;
+	color: #ffffff;
+}
+
+a.roblox {
+	color: #E2231A;
+}
+
+a.roblox:hover {
+	background-color: #E2231A;
+	color: #ffffff;
+}
+
+a.pixiv {
+	color: #4194F3;
+}
+
+a.pixiv:hover {
+	background-color: #4194F3;
+	color: #ffffff;
+}
+
+a.spotify {
+	color: #1DB954;
+}
+
+a.spotify:hover {
+	background-color: #1DB954;
+	color: #ffffff;
+}
+
+a.pinterest {
+	color: #D32D2F;
+}
+
+a.pinterest:hover {
+	background-color: #D32D2F;
+	color: #ffffff;
+}
+
+a.googleplay {
+	color: #5DCDFA;
+}
+
+a.googleplay:hover {
+	background-color: #5DCDFA;
+	color: #ffffff;
+}
+
+
+#randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
+	color: #202125;
 }
