@@ -199,6 +199,14 @@ a.googleplay:hover {
 	color: #ffffff;
 }
 
+a.funnyjunk {
+	color: #410055;
+}
+
+a.funnyjunk:hover {
+	background-color: #410055;
+	color: #ffffff;
+}
 
 #randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
 	color: #202125;
