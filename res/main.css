@@ -208,6 +208,16 @@ a.funnyjunk:hover {
 	color: #ffffff;
 }
 
+a.osu {
+	color: #AC396D;
+}
+
+a.osu:hover {
+	background-color: #AC396D;
+	color: #ffffff;
+}
+
+
 #randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
 	color: #202125;
 }
