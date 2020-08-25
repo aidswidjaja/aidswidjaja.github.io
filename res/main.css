@@ -217,6 +217,16 @@ a.osu:hover {
 	color: #ffffff;
 }
 
+a.kitsu {
+	color: #FF6A52;
+}
+
+a.kitsu:hover {
+	background-color: #FF6A52;
+	color: #ffffff;
+}
+
+
 
 #randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
 	color: #202125;
