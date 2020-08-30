@@ -226,6 +226,14 @@ a.kitsu:hover {
 	color: #ffffff;
 }
 
+a.telegram {
+	color: #009ED5;
+}
+
+a.kitsu:hover {
+	background-color: #009ED5;
+	color: #ffffff;
+}
 
 
 #randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
