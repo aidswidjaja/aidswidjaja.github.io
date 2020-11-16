@@ -78,7 +78,7 @@ function change3() {
   var moredoc = document.getElementById("morerandomText3");
   moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
 }
-setInterval(change3, 2005); // I get born
+setInterval(change3, 2005); 
 
 function change4() {
   var doc = document.getElementById("randomText4");
@@ -142,7 +142,7 @@ function change11() {
   var moredoc = document.getElementById("morerandomText11");
   moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
 }
-setInterval(change11, 2008); // Also very important year
+setInterval(change11, 2008); 
 
 function changeScroll() {
   var doc = document.getElementsByClassName("os-scrollbar-handle"); // NOTE: to be fixed
