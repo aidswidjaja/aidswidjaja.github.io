@@ -145,7 +145,7 @@ function change11() {
 setInterval(change11, 2008); 
 
 function changeScroll() {
-  var doc = document.getElementsByClassName("os-scrollbar-handle"); // NOTE: to be fixed
+  var doc = document.getElementsByClassName("os-scrollbar-handle");
   doc.style.background = colours[Math.floor(Math.random() * colours.length)];
   var moredoc = document.getElementById("morerandomText12");
   moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
