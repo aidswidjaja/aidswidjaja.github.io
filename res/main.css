@@ -230,11 +230,55 @@ a.telegram {
 	color: #009ED5;
 }
 
-a.kitsu:hover {
+a.telegram:hover {
 	background-color: #009ED5;
 	color: #ffffff;
 }
 
+a.googleplay {
+	color: #7FDF79;
+}
+
+a.googleplay:hover {
+	background-color: #7FDF79;
+	color: #000000;
+}
+
+a.amongus {
+	color: #CD463C;
+}
+
+a.amongus:hover {
+	background-color: #CD463C;
+	color: #ffffff;
+}
+
+a.bos {
+	color: #2D468B;
+}
+
+a.bos:hover {
+	background-color: #2D468B;
+	color: #ffffff;
+}
+
+a.bungie {
+	color: #EBC649;
+}
+
+a.bungie:hover {
+	background-color: #EBC649;
+	color: #000000;
+}
+
+a.albion {
+	color: #BA3830;
+}
+
+a.albion:hover {
+	background-color: #BA3830;
+	color: #ffffff;
+}
 
 #randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
 	color: #202125;
