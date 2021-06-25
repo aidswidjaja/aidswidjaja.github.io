@@ -190,13 +190,8 @@ a.pinterest:hover {
 	color: #ffffff;
 }
 
-a.googleplay {
+code.googleplay {
 	color: #5DCDFA;
-}
-
-a.googleplay:hover {
-	background-color: #5DCDFA;
-	color: #ffffff;
 }
 
 a.funnyjunk {
@@ -226,13 +221,8 @@ a.kitsu:hover {
 	color: #ffffff;
 }
 
-a.telegram {
+code.telegram {
 	color: #009ED5;
-}
-
-a.telegram:hover {
-	background-color: #009ED5;
-	color: #ffffff;
 }
 
 a.googleplay {
@@ -244,13 +234,8 @@ a.googleplay:hover {
 	color: #000000;
 }
 
-a.amongus {
+code.amongus {
 	color: #CD463C;
-}
-
-a.amongus:hover {
-	background-color: #CD463C;
-	color: #ffffff;
 }
 
 a.bos {
@@ -271,13 +256,8 @@ a.bungie:hover {
 	color: #000000;
 }
 
-a.albion {
+code.albion {
 	color: #BA3830;
-}
-
-a.albion:hover {
-	background-color: #BA3830;
-	color: #ffffff;
 }
 
 #randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
