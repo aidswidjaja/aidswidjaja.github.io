@@ -2,7 +2,7 @@
 
 var i = 0;
 var max = 70
-var txt = 'somebody who spends too much time on the internet.'; /* The text */
+var txt = 'just another random person on the internet.'; /* The text */
 var speed = 90; /* The speed/duration of the effect in milliseconds */
 
 
