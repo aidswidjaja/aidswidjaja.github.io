@@ -34,15 +34,24 @@ code {
 
 .aidswidjaja {
 	display: absolute;
-	font-family: Munro;
 	text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "ROND" 100;
 	line-height: 1;
 }
 
 .tagline {
 	font-family: 'DM Mono', monospace;
+	text-align: center;
 	font-size: 1.5rem;
-	color: #ffffff;
+	color: #ababab;
 	vertical-align: middle;
 	padding-top: 5vh;
 	margin: 10px;
@@ -77,6 +86,8 @@ code {
 	font-family: 'Rubik', sans-serif;
 	color: #ffffff;
 	scroll-snap-align: center;
+    display: grid;
+    place-items: center;   
 }
 
 .maincontent {
@@ -262,4 +273,20 @@ code.albion {
 
 #randomText1, #randomText2, #randomText3, #randomText4, #randomText5, #randomText6, #randomText7, #randomText8, #randomText9, #randomText10, #randomText11 {
 	color: #202125;
+}
+
+.glow {
+  text-align: center;
+  -webkit-animation: glow 2.5s ease-in-out infinite alternate;
+  -moz-animation: glow 2.5s ease-in-out infinite alternate;
+  animation: glow 2.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px, 0 0 10px, 0 0 30px, 0 0 40px;
+  }
+  to {
+    text-shadow: 0 0 10px, 0 0 20px, 0 0 60px, 0 0 80px;
+  }
 }

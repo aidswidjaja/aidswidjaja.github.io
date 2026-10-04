@@ -104,46 +104,6 @@ function change6() {
 }
 setInterval(change6, 2302); // Reddit cake day - February 23, 2018 (DDMM)
 
-function change7() {
-  var doc = document.getElementById("randomText7");
-  doc.style.color = colours[Math.floor(Math.random() * colours.length)];
-  var moredoc = document.getElementById("morerandomText7");
-  moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
-}
-setInterval(change7, 1910); // noice
-
-function change8() {
-  var doc = document.getElementById("randomText8");
-  doc.style.color = colours[Math.floor(Math.random() * colours.length)];
-  var moredoc = document.getElementById("morerandomText8");
-  moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
-}
-setInterval(change8, 1300); // number of windows open on my computer screen right now * 100
-
-function change9() {
-  var doc = document.getElementById("randomText9");
-  doc.style.color = colours[Math.floor(Math.random() * colours.length)];
-  var moredoc = document.getElementById("morerandomText9");
-  moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
-}
-setInterval(change9, 2020); // coronavirus time! 
-
-function change10() {
-  var doc = document.getElementById("randomText10");
-  doc.style.color = colours[Math.floor(Math.random() * colours.length)];
-  var moredoc = document.getElementById("morerandomText10");
-  moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
-}
-setInterval(change10, 1958); // day I started watching anime (YYMMDD)
-
-function change11() {
-  var doc = document.getElementById("randomText11");
-  doc.style.color = colours[Math.floor(Math.random() * colours.length)];
-  var moredoc = document.getElementById("morerandomText11");
-  moredoc.style.color = colours[Math.floor(Math.random() * colours.length)];
-}
-setInterval(change11, 2008); 
-
 function changeScroll() {
   var doc = document.getElementsByClassName("os-scrollbar-handle");
   doc.style.background = colours[Math.floor(Math.random() * colours.length)];
